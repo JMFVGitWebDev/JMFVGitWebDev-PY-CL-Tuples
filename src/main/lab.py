@@ -1,11 +1,12 @@
-def create_tuple(*args):
+def create_tuple(self):
     """
     Instead of returning 0, this method should Create a tuple from the given arguments and return that tuple.
 
     :param args: The elements to include in the tuple.
     :return: The created tuple.
     """
-    return *args
+    
+    return self.values
 
 
 def access_element(my_tuple, index):
