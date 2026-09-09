@@ -5,9 +5,9 @@ def create_tuple(*args)):
     :param args: The elements to include in the tuple.
     :return: The created tuple.
     """
-    my_tuple = ([*args]
+    my_tuple = ([*args])
     
-    return my_tuple
+    return 0
 
 
 def access_element(my_tuple, index):
