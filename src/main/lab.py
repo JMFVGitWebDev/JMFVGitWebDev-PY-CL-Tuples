@@ -73,7 +73,7 @@ def tuple_length(my_tuple):
     :param my_tuple: The tuple.
     :return: The length of the tuple.
     """
-    return 0
+    return len(my_tuple)
 
 
 def tuple_slicing(my_tuple, start, end):
