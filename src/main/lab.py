@@ -5,7 +5,6 @@ def create_tuple(*args):
     :param args: The elements to include in the tuple.
     :return: The created tuple.
     """
-    my_tuple = tuple(args)
     
     return args
 
@@ -19,7 +18,7 @@ def access_element(my_tuple, index):
     :param index: The index of the element to access.
     :return: The element at the given index.
     """
-    return 0
+    return my_tuple[index]
 
 
 def concatenate_tuples(tuple1, tuple2):
