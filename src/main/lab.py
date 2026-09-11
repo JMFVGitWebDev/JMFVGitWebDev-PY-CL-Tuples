@@ -5,7 +5,7 @@ def create_tuple(*args):
     :param args: The elements to include in the tuple.
     :return: The created tuple.
     """
-    
+
     return args
 
 
@@ -29,7 +29,7 @@ def concatenate_tuples(tuple1, tuple2):
     :param tuple2: The second tuple.
     :return: The concatenated tuple.
     """
-    return 0
+    return tuple1 + tuple2
 
 
 def repeat_tuple(my_tuple, n):
