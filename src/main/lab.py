@@ -63,7 +63,7 @@ def check_non_membership(my_tuple, item):
     :param item: The item to check for non-membership.
     :return: True if the item is not present, False otherwise.
     """
-    return 0
+    return False item in my_tuple else True
 
 
 def tuple_length(my_tuple):
