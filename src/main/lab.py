@@ -7,7 +7,7 @@ def create_tuple(*args):
     """
     my_tuple = tuple(args)
     
-    return my_tuple
+    return args
 
 
 def access_element(my_tuple, index):
