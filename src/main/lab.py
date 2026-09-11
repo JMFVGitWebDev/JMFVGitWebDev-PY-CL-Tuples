@@ -110,4 +110,4 @@ def find_index(my_tuple, item):
     :param item: The item to find the index for.
     :return: The index of the first occurrence of the item in the tuple.
     """
-    return 0
+    return my_tuple.index(item)
