@@ -40,7 +40,7 @@ def repeat_tuple(my_tuple, n):
     :param n: The number of times to repeat the tuple.
     :return: The repeated tuple.
     """
-    return 0
+    return my_tuple * n
 
 def check_membership(my_tuple, item):
     """
