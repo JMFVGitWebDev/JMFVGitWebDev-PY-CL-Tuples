@@ -7,7 +7,7 @@ def create_tuple(self):
     """
     my_tuple = tuple(args)
     
-    return self.args
+    return 0
 
 
 def access_element(my_tuple, index):
@@ -19,7 +19,7 @@ def access_element(my_tuple, index):
     :param index: The index of the element to access.
     :return: The element at the given index.
     """
-    return my_tuple[index]
+    return 0
 
 
 def concatenate_tuples(tuple1, tuple2):
@@ -30,7 +30,7 @@ def concatenate_tuples(tuple1, tuple2):
     :param tuple2: The second tuple.
     :return: The concatenated tuple.
     """
-    return tuple1 + tuple2
+    return 0
 
 
 def repeat_tuple(my_tuple, n):
@@ -41,7 +41,7 @@ def repeat_tuple(my_tuple, n):
     :param n: The number of times to repeat the tuple.
     :return: The repeated tuple.
     """
-    return my_tuple * n
+    return 0
 
 def check_membership(my_tuple, item):
     """
@@ -52,7 +52,7 @@ def check_membership(my_tuple, item):
     :param item: The item to check for membership.
     :return: True if the item is present, False otherwise.
     """
-    return True if item in my_tuple else False
+    return 0
 
 
 def check_non_membership(my_tuple, item):
@@ -64,7 +64,7 @@ def check_non_membership(my_tuple, item):
     :param item: The item to check for non-membership.
     :return: True if the item is not present, False otherwise.
     """
-    return False item in my_tuple else True
+    return 0
 
 
 def tuple_length(my_tuple):
@@ -74,7 +74,7 @@ def tuple_length(my_tuple):
     :param my_tuple: The tuple.
     :return: The length of the tuple.
     """
-    return len(my_tuple)
+    return 0
 
 
 def tuple_slicing(my_tuple, start, end):
@@ -87,7 +87,7 @@ def tuple_slicing(my_tuple, start, end):
     :param end: The ending index (exclusive).
     :return: The sliced tuple.
     """
-    return my_tuple[start:end]
+    return 0
 
 
 def count_occurrences(my_tuple, item):
@@ -99,7 +99,7 @@ def count_occurrences(my_tuple, item):
     :param item: The item to count occurrences for.
     :return: The number of occurrences of the item in the tuple.
     """
-    return my_tuple.count(item)
+    return 0
 
 
 def find_index(my_tuple, item):
@@ -111,4 +111,4 @@ def find_index(my_tuple, item):
     :param item: The item to find the index for.
     :return: The index of the first occurrence of the item in the tuple.
     """
-    return my_tuple.index(item)
+    return 0
