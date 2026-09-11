@@ -1,4 +1,4 @@
-def create_tuple(*args)):
+def create_tuple(*args):
     """
     Instead of returning 0, this method should Create a tuple from the given arguments and return that tuple.
 
