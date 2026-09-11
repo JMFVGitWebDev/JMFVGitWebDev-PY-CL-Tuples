@@ -86,7 +86,7 @@ def tuple_slicing(my_tuple, start, end):
     :param end: The ending index (exclusive).
     :return: The sliced tuple.
     """
-    return 0
+    return my_tuple[start:end]
 
 
 def count_occurrences(my_tuple, item):
@@ -98,7 +98,7 @@ def count_occurrences(my_tuple, item):
     :param item: The item to count occurrences for.
     :return: The number of occurrences of the item in the tuple.
     """
-    return 0
+    return my_tuple.count(item)
 
 
 def find_index(my_tuple, item):
