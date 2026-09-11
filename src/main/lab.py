@@ -51,7 +51,7 @@ def check_membership(my_tuple, item):
     :param item: The item to check for membership.
     :return: True if the item is present, False otherwise.
     """
-    return 0
+    return True if item in my_tuple else False
 
 
 def check_non_membership(my_tuple, item):
