@@ -1,4 +1,4 @@
-def create_tuple(*args):
+def create_tuple(self):
     """
     Instead of returning 0, this method should Create a tuple from the given arguments and return that tuple.
 
@@ -7,7 +7,7 @@ def create_tuple(*args):
     """
     my_tuple = tuple(args)
     
-    return args
+    return self.args
 
 
 def access_element(my_tuple, index):
